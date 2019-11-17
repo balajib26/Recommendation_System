@@ -49,7 +49,7 @@ def similar_users(sim_user):
         
         
 # This function calculates the weighted average of similar users
-# to determine a potential rating for an input user and show
+# to determine a potential rating for an input user.
 
 def user_anime_rating(anime, user):
     sim_users = collab_user_sim.sort_values(by=user, ascending=False).index[1:1000]
